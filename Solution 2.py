@@ -36,7 +36,7 @@ class TravelAgency:
             list1 = i.traveledCountry
             if(res < len(list1)):
                 res = len(list1)
-                traveler_name = i.traveler_name
+                traveler_name = i.travelerName
         
         return traveler_name
     
